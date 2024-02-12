@@ -6,7 +6,7 @@
 }
 
 .hero__section{
-    background: url(./images/heroSectionBackground.png);
+    background: url("./images/heroSectionBackground.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -171,4 +171,57 @@
 
 .we__offer_content p{
     font-size: 12.5px;
+}
+
+
+.collections h1{
+    font-weight: 600;
+}
+
+.collections .sub__heading_container{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+} 
+
+.sub__heading_container span:nth-child(2){
+    color: #ff7e8b;
+    cursor: pointer;
+}
+
+.collections_card_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.collections_card_container .card{
+    height: 300px;
+    min-width: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card1{
+    background-image: url("./images/collection1.jpg");
+}
+
+.card2{
+    background-image: url("./images/collection2.jpg");
+}
+
+.card3{
+    background-image: url("./images/collection3.jpg");
+}
+
+.card4{
+    background-image: url("./images/collection4.jpg");
 }
