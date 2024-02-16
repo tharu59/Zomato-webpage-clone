@@ -377,3 +377,24 @@
 }
 
 /* Media Queries for DOwnload App */
+
+@media only screen and (max-width: 130px){
+    .get__the_app .semiContainer .left,
+    .get__the_app .semiContainer .right{
+        flex: 1;
+    }
+
+    .get__the_app .semiContainer{
+        width: 80%;
+    }  
+}
+
+@media only screen and (max-width: 900px){
+    .get__the_app{
+        padding: 2rem 0;
+    }
+    .get__the_app .semiContainer{
+        width: 90%;
+        flex-direction: column; 
+    }
+}
