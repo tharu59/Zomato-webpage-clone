@@ -477,5 +477,44 @@
     height: 25px;
     border-radius: 30px;
     color: white;
+    cursor: pointer;
 }
 
+
+.section__links_container button i{
+    /* color: white; */
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__secton_logos{
+    width: 100%;
+}
+
+.disclamer{
+    width: 95%;
+    color: grey;
+    margin: auto;
+    border-top: 1px solid grey;
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width: 900px){
+    .navigation_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .navigation_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .navigation_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
